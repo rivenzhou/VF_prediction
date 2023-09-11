@@ -14,12 +14,12 @@ Glaucoma is a major cause of blindness and vision impairment worldwide, and visu
 ## Notebooks
 
 ### LSTM
-*Use longitudinal observed visual field dataset (https://github.com/rivenzhou/VF_prediction/blob/main/data/temporal/X5_all_arti.csv) and dataset containing censoring indicator (https://github.com/rivenzhou/VF_prediction/blob/main/data/temporal/Y5_e_arti.csv).
+*To apply this method, we need the longitudinal observed visual field dataset (https://github.com/rivenzhou/VF_prediction/blob/main/data/temporal/X5_all_arti.csv) and dataset containing censoring indicator (https://github.com/rivenzhou/VF_prediction/blob/main/data/temporal/Y5_e_arti.csv).
 
 *For method application and time-to-glaucoma prediction, [Here is the Notebook] (https://github.com/rivenzhou/VF_prediction/blob/main/lstm.ipynb).
 
 ### Bi-LSTM
-*Use longitudinal observed visual field dataset (https://github.com/rivenzhou/VF_prediction/blob/main/data/temporal/X5_all_arti.csv) and dataset containing censoring indicator (https://github.com/rivenzhou/VF_prediction/blob/main/data/temporal/Y5_e_arti.csv).
+*To apply this method, we need the  longitudinal observed visual field dataset (https://github.com/rivenzhou/VF_prediction/blob/main/data/temporal/X5_all_arti.csv) and dataset containing censoring indicator (https://github.com/rivenzhou/VF_prediction/blob/main/data/temporal/Y5_e_arti.csv).
 
 *For method application and time-to-glaucoma prediction, [ Here is the Notebook] (https://github.com/rivenzhou/VF_prediction/blob/main/bilstm.ipynb).
 
@@ -32,6 +32,6 @@ Glaucoma is a major cause of blindness and vision impairment worldwide, and visu
 
 *First, apply zero-padding (https://github.com/rivenzhou/VF_prediction/blob/main/zero-padding.ipynb) on dataset (https://github.com/rivenzhou/VF_prediction/blob/main/data/temporal/X5_72_arti.csv), which contains  longitudinal observed visual field at 54 points. After applying zero-padding, we get visual field data with 72 points (https://github.com/rivenzhou/VF_prediction/blob/main/data/temporal/data_72_arti.csv), which can be transformed to $8 \times 9$ image.
 
-*ResNet50 (https://github.com/rivenzhou/VF_prediction/blob/main/resnet.ipynb) on transformed zero-padding images (https://github.com/rivenzhou/VF_prediction/blob/main/data/temporal/data_72_arti.csv).
+* Apply ResNet50 (https://github.com/rivenzhou/VF_prediction/blob/main/resnet.ipynb) on transformed zero-padding images (https://github.com/rivenzhou/VF_prediction/blob/main/data/temporal/data_72_arti.csv).
 
 *For method application and time-to-glaucoma prediction, [Here is the Notebook] (https://github.com/rivenzhou/VF_prediction/blob/main/lstm-resnet.ipynb).
