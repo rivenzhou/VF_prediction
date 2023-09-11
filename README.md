@@ -14,12 +14,12 @@ Glaucoma is a major cause of blindness and vision impairment worldwide, and visu
 ## Notebooks
 
 ### LSTM
-*Use longitudinal observed visual field dataset (https://github.com/rivenzhou/VF_prediction/blob/main/data/temporal/X5_all_arti.csv) and dataset ()containing censoring indicator (https://github.com/rivenzhou/VF_prediction/blob/main/data/temporal/Y5_e_arti.csv).
+*Use longitudinal observed visual field dataset (https://github.com/rivenzhou/VF_prediction/blob/main/data/temporal/X5_all_arti.csv) and dataset containing censoring indicator (https://github.com/rivenzhou/VF_prediction/blob/main/data/temporal/Y5_e_arti.csv).
 
 * [Here is the Notebook] (https://github.com/rivenzhou/VF_prediction/blob/main/lstm.ipynb).
 
 ### Bi-LSTM
-*Use longitudinal observed visual field dataset (https://github.com/rivenzhou/VF_prediction/blob/main/data/temporal/X5_all_arti.csv) and dataset ()containing censoring indicator (https://github.com/rivenzhou/VF_prediction/blob/main/data/temporal/Y5_e_arti.csv).
+*Use longitudinal observed visual field dataset (https://github.com/rivenzhou/VF_prediction/blob/main/data/temporal/X5_all_arti.csv) and dataset containing censoring indicator (https://github.com/rivenzhou/VF_prediction/blob/main/data/temporal/Y5_e_arti.csv).
 
 *[ Here is the Notebook] (https://github.com/rivenzhou/VF_prediction/blob/main/bilstm.ipynb).
 
