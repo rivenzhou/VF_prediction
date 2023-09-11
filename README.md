@@ -8,7 +8,8 @@
 
 
 ---
-
+## Introduction
+Glaucoma is a major cause of blindness and vision impairment worldwide, and visual field (VF) tests are essential for monitoring the conversion of glaucoma. In this project, we propose and  implement several deep-learning approaches that naturally incorporate temporal and spatial information infrom longitudinal visual field data to predict time-to-glaucoma. 
 
 ## Notebooks
 
